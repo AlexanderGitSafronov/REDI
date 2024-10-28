@@ -1,0 +1,155 @@
+@media (min-width: 768px) {
+  .main__content_wrapper {
+    margin-top: 40px;
+  }
+  .container {
+    padding: 0px 3vw;
+  }
+  .main__content_middle {
+    flex-direction: row;
+  }
+  .main__content_first-block {
+    width: 56%;
+  }
+  .fb_description {
+    width: 100%;
+  }
+  .main__content_wrapper h1 {
+    font-size: 42px;
+  }
+  .main__content {
+    row-gap: 60px;
+  }
+  .about__content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40px;
+    justify-content: center;
+  }
+  .header__logo {
+    width: inherit;
+  }
+}
+@media (min-width: 1140px) {
+  body {
+    overflow-x: hidden;
+  }
+  .main__wrapper {
+    padding-bottom: 100px;
+  }
+  .header__menu_circle {
+    display: none;
+  }
+  .main__content {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .header__menu {
+    background: url("../images/right_cloud.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 446px;
+    display: flex;
+    justify-content: center;
+  }
+  .header__menu_pc nav ul {
+    flex-direction: row;
+    column-gap: 51px;
+  }
+  .header__logo {
+    width: 329px;
+    background-size: cover;
+    height: 113px;
+  }
+  .header__logo .logo svg {
+    width: 263px;
+  }
+  .header__menu_pc {
+    display: block;
+  }
+  .main__content_wrapper h1 {
+    font-size: 52px;
+  }
+  .main__content {
+    justify-content: space-between;
+    margin-top: 42px;
+  }
+  .main__content_middle {
+    position: relative;
+  }
+  .main__content_first-block {
+    width: 439px;
+  }
+  .main__content_second-block {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  }
+  .main__content_second-block img {
+    width: 710px;
+  }
+  .main__content_first-block p {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .container {
+    max-width: 1162px;
+    min-width: 1140px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  .about {
+    padding: 52px 0px;
+  }
+  .about__content {
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  .about__wrapper{
+    padding: 50px 0px;
+  }
+  .result {
+    overflow-x: hidden;
+    padding: 99px 0px 197px;
+  }
+  .result__content {
+    overflow-x: hidden;
+  }
+  .fb_description {
+    margin-top: 60px;
+    width: 323px;
+    padding: 35px 0px 38px 35px;
+  }
+  .fb_description {
+    row-gap: 20px;
+  }
+  .fb_description_list {
+    column-gap: 17px;
+  }
+  .fb_description_list span {
+    font-size: 22px;
+  }
+  .about__wrapper,
+  .result__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .result__content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .result__block-text {
+    display: none;
+  }
+  .result__block-text-pc {
+    display: flex;
+  }
+  h2 {
+    font-size: 52px;
+  }
+  .result__wrapper h2 {
+    font-size: 52px;
+  }
+}
